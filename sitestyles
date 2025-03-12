@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+  background: linear-gradient(to right, #bae1c8, #c9f9e3);
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #0b7a7a;
+}
+
+.pro-span {
+  text-decoration: underline;
+}
+
+.top-container {
+  background: linear-gradient(180deg, #E4F9F5, #ffffff);
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  border-bottom: 5px solid #66BFBF;
+}
+
+.middle-container {
+  margin-top: -50px;
+}
+
+.contact-me {
+  padding: 30px 0 50px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0;
+}
+
+.bottom-attribution {
+  background-color: #66BFBF;
+  font-size: 0.8em;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.bottom-attribution a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.hi {
+  height: 60px;
+  width: 60px;
+}
+
+.top-cloud, .bottom-cloud {
+  height: 100px;
+  width: 100px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.profile {
+  margin: 100px auto;
+}
+
+.profile-text {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.image-me {
+  width: 20%;
+  border-radius: 50%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skill-row {
+  width: 60%;
+  margin: 100px auto;
+  text-align: left;
+  background: linear-gradient(to right, #0077ff, yellow);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skill-image-left, .skill-image-right {
+  width: 20%;
+  border-radius: 10px;
+}
+
+.copyright, .footer-link {
+  color: white;
+}
+
+.btn {
+  background-color: #66BFBF;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #11999E;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  background: darkcyan;
+  width: 80px;
+  margin: 20px auto;
+}
